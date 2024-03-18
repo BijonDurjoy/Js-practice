@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.canvas{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left-canvas{
+    width: 30%;
+    height: 100vh;
+    border-right: 3px solid cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-canvas img{
+    width: 50%;
+    height: auto;
+}
+.main-canvas{
+    width: 70%;
+    height: 100vh;
+}
