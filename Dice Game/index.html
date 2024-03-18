@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice game</title>
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="container">
-        <h1>Lets Play!</h1>
+        <h1>Let's play</h1>
+
         <div class="dice">
             <p class="Player1">Player 1</p>
-            <img src="img/dice6.png" alt="6">
-        </div>
-        <div class="dice">
-            <p class="Player2">Player 2</p>
-            <img src="img/dice6.png" alt="6">
+            <img src="dice6.png" alt="6" class="img1">
         </div>
 
-        <div class="bottom">
+        <div class="dice">
+            <p class="Player2">Player 2</p>
+            <img src="dice6.png" alt="6" class="img2">
         </div>
-        <button type="button" class="btn" onclick="rollDice()">Roll the dice</button>
-        <button type="button" class="btn" onclick="editName()">Edit name</button>
+
+
+        <div class="container-bottom">
+            <button type="button" class="btn" onclick="rollDice()">Roll the Dice</button>
+            <button type="button" class="btn" onclick="editName()">Edit name</button>
+        </div>
     </div>
+    <script src="scrpt.js"></script>
 </body>
+
 </html>
