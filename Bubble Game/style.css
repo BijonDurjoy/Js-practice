@@ -18,19 +18,15 @@ body{
 .left-canvas{
     width: 30%;
     height: 100vh;
-    border-right: 3px solid cyan;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 .left-canvas img{
     width: 50%;
     height: auto;
-}
-.main-canvas{
-    width: 70%;
-    height: 100vh;
 }
 .left-card{
     margin-top: 20px;
@@ -46,4 +42,30 @@ body{
 .left-card p{
     font-size: 30px;
     font-weight: 600;
+}
+.bubble{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--primary-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 15px;
+    transition: .5s;
+}
+.bubble:hover{
+    transform: scale(1.5);
+    background-color: black;
+    color: white;
+}
+.main-canvas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 10vh;
 }
